@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    background: rgb(160,156,222);
+    background: linear-gradient(349deg, rgba(160,156,222,1) 25%, rgba(197,181,197,1) 56%, rgba(158,196,163,1) 73%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content >h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+    color: rgb(255, 0, 183);
+
+}
+#time{
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 23px, transparent 23px) 0% 0%/30px 30px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 23px, transparent 23px) 100% 0%/30px 30px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 23px, transparent 23px) 0% 100%/30px 30px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 23px, transparent 23px) 100% 100%/30px 30px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 14px) calc(100% - 60px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 14px) no-repeat,
+    #000000;
+    border-radius: 30px;
+    padding: 13px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+#clock{
+    font-size: 70px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+#start{
+    height: 50px;
+    width: 90px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 150px;
+    border-color: black;
+    border-width: 4px;
+    font-size: 15px;
+    font-weight:bold;
+}
+#reset{
+    height: 50px;
+    width: 90px;
+    background-color: rgb(227, 62, 62);
+    color: black;
+    border-radius: 150px;
+    border-color: black;
+    border-width: 4px;
+    font-size: 15px;
+    font-weight:bold;
+}
+#stop{
+    height: 50px;
+    width: 90px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 150px;
+    border-color: black;
+    border-width: 4px;
+    font-size: 15px;
+    font-weight:bold;
+}
